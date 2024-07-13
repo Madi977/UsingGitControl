@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ImageForGit: View {
     var body: some View {
-        Image(systemName: "bolt.fill")
+        Image(systemName: "house.fill")
             .font(.largeTitle)
             .padding()
             .background(Color.gray.opacity(0.4).cornerRadius(20))
