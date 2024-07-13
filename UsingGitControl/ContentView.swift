@@ -9,6 +9,7 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
+    @State var title: String = "Text"
     var body: some View {
         Image(systemName: "heart.fill")
             .font(.largeTitle)
@@ -16,6 +17,12 @@ struct ContentView: View {
             .padding()
             .background(Color.black.cornerRadius(15))
             .padding()
+    }
+}
+
+struct NewView: View{
+    var body: some View{
+        Text("changed text for new lesson")
     }
 }
 
