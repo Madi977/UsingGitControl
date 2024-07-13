@@ -21,12 +21,7 @@ struct ContentView: View {
     @State var isChanged: Bool = false
     var body: some View {
         VStack{
-            
-            Button(action: {
-                isChanged.toggle()
-            }, label: {
-                Text("button")
-            })
+            Text("this is what i changed")
         }
     }
 }
