@@ -12,6 +12,7 @@ struct ImageForGit: View {
         Image(systemName: "person.circle.fill")
             .font(.largeTitle)
             .padding()
+            .background(Color.gray.opacity(0.4).cornerRadius(20))
     }
 }
 
