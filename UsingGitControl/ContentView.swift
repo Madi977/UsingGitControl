@@ -21,11 +21,7 @@ struct ContentView: View {
     @State var isChanged: Bool = false
     var body: some View {
         VStack{
-            Image(systemName: "heart.fill")
-                .font(.largeTitle)
-                .foregroundColor(.red)
-                .padding()
-                .background(Color.black.cornerRadius(15))
+            
             Button(action: {
                 isChanged.toggle()
             }, label: {
