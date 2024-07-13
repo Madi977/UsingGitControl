@@ -23,6 +23,7 @@ struct ContentView: View {
 struct NewView: View{
     var body: some View{
         Text("changed text for new lesson")
+            .padding()
     }
 }
 
