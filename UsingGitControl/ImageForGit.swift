@@ -11,6 +11,7 @@ struct ImageForGit: View {
     var body: some View {
         Image(systemName: "person.circle.fill")
             .font(.largeTitle)
+            .padding()
     }
 }
 
