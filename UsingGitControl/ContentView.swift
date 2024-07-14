@@ -18,7 +18,7 @@ class Vertification{
 }
 
 struct ContentView: View {
-    @State var title: String = "Text"
+    @State var title: String = "Message"
     var body: some View {
         Image(systemName: "heart.fill")
             .font(.largeTitle)
@@ -31,7 +31,7 @@ struct ContentView: View {
 
 struct NewView: View{
     var body: some View{
-        Text("changed text for new lesson")
+        Text("changed text")
             .padding()
     }
 }
