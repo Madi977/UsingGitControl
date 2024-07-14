@@ -5,6 +5,7 @@
 //  Created by Madi Abdimalik on 14.07.2024.
 //
 // Learning new datas
+// Clear last section
 
 import SwiftUI
 
