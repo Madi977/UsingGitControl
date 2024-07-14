@@ -14,6 +14,7 @@
 		027DDFE22C3D138700B964BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 027DDFE12C3D138700B964BD /* Preview Assets.xcassets */; };
 		027DDFED2C4312E300B964BD /* ImageForGit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DDFEC2C4312E300B964BD /* ImageForGit.swift */; };
 		027DDFEF2C43185000B964BD /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DDFEE2C43185000B964BD /* ExploreView.swift */; };
+		02F023C22C4415B200174BED /* Setting_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F023C12C4415B200174BED /* Setting_View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		027DDFE12C3D138700B964BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		027DDFEC2C4312E300B964BD /* ImageForGit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageForGit.swift; sourceTree = "<group>"; };
 		027DDFEE2C43185000B964BD /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		02F023C12C4415B200174BED /* Setting_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting_View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				027DDFD72C3D138600B964BD /* UsingGitControlApp.swift */,
 				027DDFEC2C4312E300B964BD /* ImageForGit.swift */,
 				027DDFD92C3D138600B964BD /* ContentView.swift */,
+				02F023C12C4415B200174BED /* Setting_View.swift */,
 				027DDFEE2C43185000B964BD /* ExploreView.swift */,
 				027DDFDB2C3D138600B964BD /* Item.swift */,
 				027DDFDD2C3D138700B964BD /* Assets.xcassets */,
@@ -151,6 +154,7 @@
 				027DDFDA2C3D138600B964BD /* ContentView.swift in Sources */,
 				027DDFDC2C3D138600B964BD /* Item.swift in Sources */,
 				027DDFED2C4312E300B964BD /* ImageForGit.swift in Sources */,
+				02F023C22C4415B200174BED /* Setting_View.swift in Sources */,
 				027DDFD82C3D138600B964BD /* UsingGitControlApp.swift in Sources */,
 				027DDFEF2C43185000B964BD /* ExploreView.swift in Sources */,
 			);
