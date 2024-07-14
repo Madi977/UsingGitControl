@@ -8,6 +8,15 @@
 import SwiftUI
 import SwiftData
 
+class Vertification{
+    
+    var data = "information"
+    
+    init(data: String){
+        self.data = "information"
+    }
+}
+
 struct ContentView: View {
     @State var title: String = "Text"
     var body: some View {
